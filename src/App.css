@@ -58,3 +58,47 @@ body {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+/* Styling for the row of buttons in the new web app */
+.button-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styling for each button in the new web app */
+.app-button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+/* Styling for each button with unique colors */
+.button-1 {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.button-2 {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.button-3 {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.button-4 {
+  background-color: #f39c12;
+  color: #fff;
+}
+
+
+/* Hover effect for all buttons */
+.app-button:hover {
+  opacity: 0.8;
+}
