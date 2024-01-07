@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Title from '../components/Title'
 import {AiFillSmile, AiFillHeart, AiOutlineHeart,AiOutlineComment} from "react-icons/ai"
-import 'bootstrap/dist/css/bootstrap.min.css'
 import dogyDog from "./img/dog.webp"
 export default function LikePhotoApp() {
   const [like, setLike] =useState(false)
