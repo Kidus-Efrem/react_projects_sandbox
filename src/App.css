@@ -184,3 +184,11 @@ body {
 .text-dark {
   color: #000000;
 }
+
+.mb-2 {
+  margin-bottom: 0.5rem !important; /* Use !important to ensure it overrides other styles */
+}
+
+.border-5 {
+  border-width: 0.5rem !important; /* Use !important to ensure it overrides other styles */
+}
