@@ -36,7 +36,7 @@ body {
 }
 
 .text-center {
-  text-center: center;
+  text-align: center;
 }
 
 /* Styling for a group containing a label and an input field */
@@ -186,9 +186,19 @@ body {
 }
 
 .mb-2 {
-  margin-bottom: 0.5rem !important; /* Use !important to ensure it overrides other styles */
+  margin-bottom: 0.5rem ; /* Use !important to ensure it overrides other styles */
 }
 
 .border-5 {
-  border-width: 0.5rem !important; /* Use !important to ensure it overrides other styles */
+  border-width: 0.5rem ; /* Use !important to ensure it overrides other styles */
 }
+.d-flex {
+  display: flex ; /* Use !important to ensure it overrides other styles */
+}
+
+.flex-column{
+
+  flex-direction: column ; /* Use !important to ensure it overrides other styles */
+}
+
+
