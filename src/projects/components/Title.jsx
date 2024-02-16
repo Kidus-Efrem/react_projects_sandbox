@@ -1,7 +1,7 @@
 import React from 'react';
 
 export default function Title({ text, classes }) {
-  const className = classes ? `header text-align ${classes}` : 'header text-align';
+  const className = classes ? `header text-center ${classes}` : 'header text-center';
 
   return (
     <div>

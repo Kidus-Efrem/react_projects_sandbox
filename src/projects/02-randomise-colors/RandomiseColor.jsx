@@ -30,7 +30,7 @@ export default function RandomiseColor() {
 	  <button onClick={handleClick} className='app-button button-4'>clickme</button>
 
 	  </div>
-	  <p className='text-paragrap text-align'>the color is {color}</p>
+	  <p className='text-paragrap text-center'>the color is {color}</p>
 	</div>
   )
 }

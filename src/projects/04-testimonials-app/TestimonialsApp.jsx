@@ -19,7 +19,7 @@ export default function TestimonialsApp() {
   }, [testimonials]);
 
   return (
-    <div className='container m-auto text-align'>
+    <div className='container m-auto text-center'>
       <Title text={'Testimonials App'} />
       <Button onClick={() => setTestimonials('Posts')} text={'post'} btnClass={'btn-info mx-4 d-inline-block'} icon={<BsFillFileEarmarkPostFill />} />
       <Button onClick={() => setTestimonials('Users')} text={'Users'} btnClass={'btn-info mx-4 d-inline-block'} icon={<FaUserAlt />} />

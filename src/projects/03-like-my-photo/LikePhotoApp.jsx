@@ -16,7 +16,7 @@ export default function LikePhotoApp() {
 	}
   }
   return (
-	<div className='container text-align'>
+	<div className='container text-center'>
 	<Title text="Like photo App"/>
 	<Title className={"sub-header"} text={`Likes ${count}`}/>
 	<div
