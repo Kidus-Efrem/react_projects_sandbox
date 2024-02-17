@@ -7,6 +7,7 @@ export default function LockSlider({handleInput, sliderValue, width}) {
 		height: "50px",
 		background: "rgba(188, 190, 190, 0.5)",
 		outline: "none",
+		borderRadius: 25,
 		marginTop: 40
 
 	}
